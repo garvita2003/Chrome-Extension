@@ -1,1 +1,2 @@
-# Chrome-Extension![Screenshot (9)](https://github.com/garvita2003/Chrome-Extension/assets/102051676/187b25ac-e45d-45c0-8b10-8834cc178844)
+
+![Screenshot (19)](https://github.com/garvita2003/Chrome-Extension/assets/102051676/e963fc6a-9de4-47d4-a8fc-13518ea20fcb)
