@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Trackers",
+    "action": {
+        "-comment":"It is used to store the name and icon of the extension",
+        "default_popup": "index.html", 
+        "default_icon": "image.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
