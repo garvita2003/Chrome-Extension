@@ -10,6 +10,10 @@ This Project or Extension is used to store the website links which we want to st
 3) JAVASCRIPT
 
 # Overview
+1) Video Output:
+https://github.com/garvita2003/Chrome-Extension/assets/102051676/74de7893-2810-481f-b0b4-bfb9044c6106
+
+2) Screenshot:
 ![Screenshot 2023-08-14 173914](https://github.com/garvita2003/Chrome-Extension/assets/102051676/7e6e1f72-0013-48ae-8128-b42ba8b4da4f)
 ![Screenshot 2023-08-14 174002](https://github.com/garvita2003/Chrome-Extension/assets/102051676/c1a79d6e-0e21-4c16-b950-a24b1e263f34)
 ![Screenshot 2023-08-14 174042](https://github.com/garvita2003/Chrome-Extension/assets/102051676/a059c117-4605-40ee-a7b0-1b6dd93c1819)
