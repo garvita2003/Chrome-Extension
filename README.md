@@ -2,93 +2,71 @@
 
 ## 📌 Introduction
 
-**Trackers** is a powerful and intuitive Chrome extension designed to help users efficiently manage and save website links. Whether you're researching, bookmarking, or organizing URLs for later reference, Trackers makes it effortless to collect and access important web links right from your browser.
+**Trackers** is a powerful and intuitive Chrome extension designed to help users efficiently manage and save website links. Whether you're researching, bookmarking, or organizing URLs for later reference, Trackers simplifies link management with its clean, user-friendly interface.
 
-### 🎯 Key Features:
-
-1. **Manual Link Input** - Manually enter or paste URLs directly into the extension using the "SAVE INPUT" button
-2. **Auto-Tab Capture** - Automatically fetch and save the current tab's URL with a single click using the "SAVE TAB" button
-3. **Quick Link Access** - All saved links are displayed as a clickable list that opens in a new tab
-4. **Easy Deletion** - Double-click the "DELETE ALL" button to clear all saved links at once
-5. **Persistent Storage** - All links are saved in browser's local storage and persist across sessions
-6. **Lightweight & Fast** - Minimal performance impact with instant link saving and retrieval
+**Key Features:**
+- ✅ Manual Link Input - Save URLs manually with the "SAVE INPUT" button
+- ✅ Auto-Tab Capture - Automatically fetch and save the current tab's URL
+- ✅ Quick Link Access - All saved links displayed as clickable list
+- ✅ Easy Deletion - Clear all saved links with double-click on "DELETE ALL"
+- ✅ Persistent Storage - Links saved in browser's local storage across sessions
+- ✅ Lightweight & Fast - Minimal performance impact with instant link operations
 
 ---
 
-## 🔄 Process & Flow
+## 🔄 Process / Flow
 
-```
-User Action → Extension Popup Opens
-    ↓
-Choose Method:
-├─ Method 1: Manual Input
-│  ├─ User types or pastes URL in input field
-│  ├─ Clicks "SAVE INPUT" button
-│  ├─ URL is added to array
-│  ├─ Stored in local storage as JSON
-│  └─ Display rendered in UI
-│
-└─ Method 2: Auto-Tab Capture
-   ├─ User clicks "SAVE TAB" button
-   ├─ Extension queries active tab using Chrome API
-   ├─ Current tab URL is retrieved
-   ├─ URL is added to array
-   ├─ Stored in local storage as JSON
-   └─ Display rendered in UI
+**Key Steps:**
+1. User opens the extension popup from Chrome toolbar
+2. Choose between manual input or auto-tab capture
+3. For Manual Method: Type/paste URL and click "SAVE INPUT"
+4. For Auto Method: Click "SAVE TAB" to capture current tab URL
+5. URL added to array and stored in local storage as JSON
+6. All saved URLs displayed as clickable list items
+7. Click any link to open it in new tab
+8. Double-click "DELETE ALL" to clear all links
 
-Display & Access:
-├─ All saved URLs shown as clickable list items
-├─ Each link opens in new tab on click
-├─ Links persist on browser restart
-└─ User can double-click "DELETE ALL" to clear all links
-```
 ---
 
 ## 🛠️ Technology Used
 
-- **HTML** - Structure and markup for extension UI
-- **CSS** - Styling and responsive design
-- **JavaScript** - Core extension logic and DOM manipulation
-- **Chrome Extensions API** - `chrome.tabs` API for tab information
-- **LocalStorage API** - Browser storage for persistent data
-- **JSON** - Data serialization format for storage
+| Technology | Purpose |
+|-----------|---------|
+| **HTML** | Structure and markup for extension UI |
+| **CSS** | Styling and responsive design |
+| **JavaScript** | Core extension logic and DOM manipulation |
+| **Chrome Extensions API** | `chrome.tabs` API for tab information |
+| **LocalStorage API** | Browser storage for persistent data |
+| **JSON** | Data serialization format for storage |
 
 ---
 
 ## 🎓 Skills Gained
 
-Through building this Chrome extension, the following technical skills were developed:
-
-### Frontend Development:
+**Frontend Development:**
 - ✅ HTML semantic markup and form handling
-- ✅ CSS styling and layout design
+- ✅ CSS styling and responsive layout design
 - ✅ Responsive UI design principles
-- ✅ JavaScript DOM manipulation and events
+- ✅ JavaScript DOM manipulation and event handling
 
-### Browser APIs:
+**Browser APIs:**
 - ✅ Chrome Extensions Manifest Configuration
 - ✅ Chrome Tabs API for retrieving active tab information
 - ✅ Browser LocalStorage API for data persistence
 - ✅ Permission management in extensions
 
-### JavaScript Programming:
-- ✅ Event-driven programming
+**JavaScript Programming:**
+- ✅ Event-driven programming patterns
 - ✅ Array operations and manipulation
 - ✅ JSON serialization and deserialization
 - ✅ Template literals and string interpolation
 - ✅ Callback functions and asynchronous operations
 
-### Problem-Solving:
+**Problem-Solving:**
 - ✅ Data persistence across browser sessions
-- ✅ User interaction design and flow
-- ✅ Error handling and edge cases
+- ✅ User interaction design and flow optimization
+- ✅ Error handling and edge cases management
 - ✅ Extension architecture and best practices
-
-### Development Practices:
-- ✅ Code organization and modular structure
-- ✅ Browser developer tools and debugging
-- ✅ Version control with Git/GitHub
-- ✅ Documentation and code comments
 
 ---
 
@@ -105,7 +83,6 @@ Chrome-Extension/
 ```
 
 ---
-
 
 ## 📸 Demonstration
 
@@ -137,8 +114,25 @@ https://github.com/garvita2003/Chrome-Extension/assets/102051676/74de7893-2810-4
 ## ⚙️ Setup Instructions
 
 ### How to Install:
-1. Clone this repository or download as ZIP
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" (top right)
-4. Click "Load unpacked" and select the extension folder
-5. The Trackers extension icon will appear in your Chrome toolbar
+
+1. **Clone or Download:**
+   - Clone this repository or download as ZIP
+   - Extract the files to a folder
+
+2. **Load Extension in Chrome:**
+   - Open Chrome and navigate to `chrome://extensions/`
+   - Enable "Developer mode" (toggle in top right)
+   - Click "Load unpacked" button
+   - Select the Chrome-Extension folder
+   - The Trackers extension icon will appear in your Chrome toolbar
+
+3. **Start Using:**
+   - Click the Trackers icon in your toolbar
+   - Begin saving and managing your links
+
+### How to Use:
+
+- **Save URL Manually:** Type or paste a URL in the input field and click "SAVE INPUT"
+- **Save Current Tab:** Click "SAVE TAB" to automatically capture the current page URL
+- **Access Saved Links:** Click any link in the list to open it in a new tab
+- **Clear All Links:** Double-click "DELETE ALL" to remove all saved links at once
