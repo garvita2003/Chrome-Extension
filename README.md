@@ -24,8 +24,6 @@
 
 ## 🔄 Process & Flow
 
-### How It Works:
-
 ```
 User Action → Extension Popup Opens
     ↓
@@ -51,15 +49,6 @@ Display & Access:
 ├─ Links persist on browser restart
 └─ User can double-click "DELETE ALL" to clear all links
 ```
-
-### Data Flow Architecture:
-
-1. **Input Phase**: User provides URL (manual or auto)
-2. **Processing Phase**: URL is validated and added to in-memory array
-3. **Storage Phase**: Array is serialized to JSON and stored in localStorage
-4. **Display Phase**: Array is rendered as HTML list with clickable anchor tags
-5. **Access Phase**: Users click links to open in new tabs
-
 ---
 
 ## 🛠️ Technology Used
@@ -70,12 +59,6 @@ Display & Access:
 - **Chrome Extensions API** - `chrome.tabs` API for tab information
 - **LocalStorage API** - Browser storage for persistent data
 - **JSON** - Data serialization format for storage
-
-### Technologies Stack Details:
-- **Manifest v3** - Latest Chrome Extension standard
-- **DOM Methods** - `getElementById`, `innerHTML`, `addEventListener`
-- **Array Methods** - `push`, iteration, JSON parsing
-- **Event Listeners** - Click and double-click event handling
 
 ---
 
