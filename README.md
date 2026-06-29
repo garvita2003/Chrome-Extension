@@ -13,13 +13,6 @@
 5. **Persistent Storage** - All links are saved in browser's local storage and persist across sessions
 6. **Lightweight & Fast** - Minimal performance impact with instant link saving and retrieval
 
-### 💡 Use Cases:
-- 📚 Bookmark important research articles and references
-- 🔍 Collect URLs while browsing for later review
-- 📝 Organize links for projects and tasks
-- 🎓 Gather educational resources quickly
-- 🛒 Save product links for comparison shopping
-
 ---
 
 ## 🔄 Process & Flow
@@ -99,7 +92,22 @@ Through building this Chrome extension, the following technical skills were deve
 
 ---
 
-## 📸 Sample Output / Demo
+## 📂 Project Structure
+
+```
+Chrome-Extension/
+├── manifest.json      # Extension configuration (v3)
+├── index.html         # UI markup and structure
+├── index.css          # Styling and layout
+├── index.js           # Core extension logic
+├── image.png          # Extension icon
+└── README.md          # Documentation
+```
+
+---
+
+
+## 📸 Demonstration
 
 ### 🎥 Video Demonstration:
 https://github.com/garvita2003/Chrome-Extension/assets/102051676/74de7893-2810-481f-b0b4-bfb9044c6106
@@ -126,21 +134,7 @@ https://github.com/garvita2003/Chrome-Extension/assets/102051676/74de7893-2810-4
 
 ---
 
-## 📂 Project Structure
-
-```
-Chrome-Extension/
-├── manifest.json      # Extension configuration (v3)
-├── index.html         # UI markup and structure
-├── index.css          # Styling and layout
-├── index.js           # Core extension logic
-├── image.png          # Extension icon
-└── README.md          # Documentation
-```
-
----
-
-## 🚀 Installation & Usage
+## ⚙️ Setup Instructions
 
 ### How to Install:
 1. Clone this repository or download as ZIP
@@ -148,13 +142,3 @@ Chrome-Extension/
 3. Enable "Developer mode" (top right)
 4. Click "Load unpacked" and select the extension folder
 5. The Trackers extension icon will appear in your Chrome toolbar
-
-### How to Use:
-- **Save URL Manually**: Type/paste URL and click "SAVE INPUT"
-- **Save Current Tab**: Click "SAVE TAB" to auto-capture current page URL
-- **Access Saved Links**: Click any link in the list to open it
-- **Clear All**: Double-click "DELETE ALL" to remove all saved links
-
----
-
-**Created on:** August 14, 2023 | **Last Updated:** June 29, 2026
