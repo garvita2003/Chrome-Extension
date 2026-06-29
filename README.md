@@ -129,10 +129,3 @@ https://github.com/garvita2003/Chrome-Extension/assets/102051676/74de7893-2810-4
 3. **Start Using:**
    - Click the Trackers icon in your toolbar
    - Begin saving and managing your links
-
-### How to Use:
-
-- **Save URL Manually:** Type or paste a URL in the input field and click "SAVE INPUT"
-- **Save Current Tab:** Click "SAVE TAB" to automatically capture the current page URL
-- **Access Saved Links:** Click any link in the list to open it in a new tab
-- **Clear All Links:** Double-click "DELETE ALL" to remove all saved links at once
